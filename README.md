@@ -1,8 +1,18 @@
-## Website Performance Optimization portfolio project
+## Otimização de Performance do Website Projeto Portifólio
 
-### Getting started
+### Começando
 
-#### Part 1: Optimize PageSpeed Insights score for index.html
+#### Como executar o projeto?
+
+O projeto pode ser acessado através de um navegador web, acessando os diretórios até o arquivo index.html diretamente ou por um servidor local, ex:
+
+  ```bash
+  $> cd /.../meu_projeto
+  $> python -m SimpleHTTPServer 8080
+  ```
+  No navegador acessar o endereço **localhost:8080**.
+
+#### Parte 1: Otimizar a pontuação da index.html no PageSpeed Insights
 
 Passos realizados para otimizar a index.html:
 
@@ -11,7 +21,7 @@ Passos realizados para otimizar a index.html:
 3. Mudar os scripts para a parte inferior da pagina para que o navegador carregue a pagina primeiro, e nos scripts externos adicionar a propriedade **async**.
 4. Melhorar o carregamento da fonte externa usando o `@font-face`
 
-#### Part 2: Optimize Frames per Second in pizza.html
+#### Parte 2: Otimizar os Frames por Segundo em pizza.html
 
 Passos realizados para otimizar a pizza.html e main.js
 
